@@ -1,4 +1,4 @@
-# ci-base-java-node
+# ci-cdxgen-image
 
 A Docker image containing Java and Node. Mainly for use in Concourse when both runtimes are required. 
 Possible use case is to run [cdxgen](https://github.com/CycloneDX/cdxgen) to create SBOM files (in CycloneDX format) to upload to [DependencyTrack](https://dependencytrack.org/).
