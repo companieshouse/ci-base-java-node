@@ -1,6 +1,8 @@
 ARG BUILD_VERSION="latest"
 FROM 416670754337.dkr.ecr.eu-west-2.amazonaws.com/ci-base-build:${BUILD_VERSION}
 
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 RUN  dnf upgrade -y \
      && dnf update
 
