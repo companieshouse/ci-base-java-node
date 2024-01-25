@@ -10,4 +10,4 @@ To analyse any other Node project, no other runtimes would therefore be needed.
 
 In any case, to analyse projects written in Java cdxgen further requires both a Java runtime and, for pom.xml, maven.
 
- - cdxgen is known to freeze with Java 8 or 11, so Java >= 21 is recommended.
+ - cdxgen is known to freeze with Java 8 or 11, and Java >= 21 is recommended.
