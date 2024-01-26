@@ -1,5 +1,5 @@
 ARG BUILD_VERSION="latest"
-FROM 416670754337.dkr.ecr.eu-west-2.amazonaws.com/ci-base-build:${BUILD_VERSION}
+FROM 416670754337.dkr.ecr.eu-west-2.amazonaws.com/ci-corretto-build-21:${BUILD_VERSION}
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
