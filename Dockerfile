@@ -12,6 +12,6 @@ RUN  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | 
      && NVM_SCRIPT=~/.nvm/nvm.sh \
      && . "${NVM_SCRIPT}" \
      && nvm install --lts \
-     && echo ". ${NVM_SCRIPT} && node -e \"console.log('Running Node.js ' + process.version)\"">> ~/.bashrc \
+     && echo ". ${NVM_SCRIPT} && node -e \"console.log('Running Node.js ' + process.version)\"">>  ~/.bash_profile \
      && dnf clean all
 
